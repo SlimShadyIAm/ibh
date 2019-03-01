@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400i');
 @import url('https://fonts.googleapis.com/css?family=Roboto:800i');
-.nav-extended {
+nav{
     background-color: #6e83ee;
 }
 
@@ -8,7 +8,6 @@
     padding: 30px;
     background-color: #8194f8;
     width: 100%;
-    margin-top: -20px;
 }
 
 .title-announce h1 {
