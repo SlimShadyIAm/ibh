@@ -5,7 +5,7 @@
 }
 
 .title-announce {
-    padding: 40px;
+    padding: 30px;
     background-color: #8194f8;
     width: 100%;
     margin-top: -20px;
@@ -23,6 +23,7 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-style: italic;
+    font-size: 44px;
     margin-bottom: 20px;
 }
 
@@ -39,12 +40,45 @@ blockquote {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
+    font-size: 30px;
 }
 
 .sect {
-    padding: 50px;
+    padding: 30px;
 }
 
 hr {
     width: 40%;
+}
+
+@media (max-width: 768px) {
+    .title-announce {
+        padding: 20px;
+    }
+
+    .title-announce h1 {
+        font-size: 42px;
+    }
+
+    .sect {
+        padding: 20px;
+    }
+
+    .sect h2 {
+        font-size: 38px;
+    }
+
+    blockquote {
+        font-size: 16px;
+    }
+
+    .partner { 
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .partner {
+        font-size: 20px;
+    }
 }
