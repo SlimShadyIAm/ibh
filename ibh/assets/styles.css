@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400i');
+@import url('https://fonts.googleapis.com/css?family=Roboto:800i');
+.nav-extended {
+    background-color: #6e83ee;
+}
+
+.title-announce {
+    padding: 40px;
+    background-color: #8194f8;
+    width: 100%;
+    margin-top: -20px;
+}
+
+.title-announce h1 {
+    color: #eee;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+
+.sect h2 {
+    color: #222;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+blockquote {
+    border-left-color: #8194f8;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.7em;
+    text-align: justify;
+}
+
+.partner {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.sect {
+    padding: 50px;
+}
+
+hr {
+    width: 40%;
+}
