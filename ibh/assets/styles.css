@@ -39,15 +39,32 @@ blockquote {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    font-size: 30px;
+    font-size: 24px;
 }
 
+.partner-pic {
+    width: 80px;
+    display: block;
+    margin: 0 auto;
+}
 .sect {
     padding: 30px;
 }
 
 hr {
     width: 40%;
+}
+
+.btn-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+.card-panel {
+    border-radius: 8px;
 }
 
 @media (max-width: 768px) {
@@ -73,6 +90,9 @@ hr {
 
     .partner { 
         font-size: 20px;
+    }
+    .partner-pic {
+        width: 60px;
     }
 }
 
