@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400i');
 @import url('https://fonts.googleapis.com/css?family=Roboto:800i');
+html {
+    scroll-behavior: smooth;
+  }
+
 nav{
     background-color: #6e83ee;
 }
@@ -88,16 +92,19 @@ hr {
         font-size: 16px;
     }
 
-    .partner { 
-        font-size: 20px;
-    }
     .partner-pic {
         width: 60px;
     }
 }
 
-@media (max-width: 480px) {
-    .partner {
+@media (max-width: 793px) {
+    .partner { 
         font-size: 20px;
+    }
+}
+
+@media (max-width: 680px) {
+    .partner {
+        font-size: 16px;
     }
 }
